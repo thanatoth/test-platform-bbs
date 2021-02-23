@@ -1,11 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: tanakatomoya
- * Date: 2019-10-11
- * Time: 09:53
- */
-include_once('Q4.php');
+include_once('modules.php');
 
 $ope = new DB_Operations();
 $ope->delete();
